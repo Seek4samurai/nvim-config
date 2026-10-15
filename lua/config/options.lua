@@ -12,3 +12,7 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.smartindent = true
+
+-- The new file should open to the right of your current editor
+vim.opt.splitright = true
+vim.opt.splitbelow = true
